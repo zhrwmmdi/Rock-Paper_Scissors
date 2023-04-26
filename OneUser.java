@@ -28,7 +28,7 @@ public class OneUser{
         if((answer.toLowerCase()).equals("yes")){
             System.out.println();
             while(true){
-                System.out.println("It's your turn, play!");
+                System.out.println("It's your turn, play![ rock / paper / scissors]");
                 String Choice = input.next();
                 userChoice = Choice.toLowerCase();
                 if(!(userChoice.equals("rock")) & !(userChoice.equals("paper")) & !(userChoice.equals("scissors"))){
